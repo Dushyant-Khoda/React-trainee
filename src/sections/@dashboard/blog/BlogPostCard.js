@@ -124,7 +124,7 @@ export default function BlogPostCard({ key, post, index, blogToggler, deleteBlog
             }}
           />
           <StyledAvatar
-            alt={user.firstName}
+            alt={user?.firstName ? user?.firstName : 'Admin'}
             src={user && user.profileImg ? user.profileImg.url : '/assets/images/avatars/avatar_18.jpg'}
             sx={{
               ...((latestPostLarge || latestPost) && {
