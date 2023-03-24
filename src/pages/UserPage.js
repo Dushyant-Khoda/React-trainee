@@ -293,12 +293,14 @@ export default function UserPage() {
       buttons: true,
       dangerMode: true,
     }).then(async (willDelete) => {
-      console.log('🤩 ~ file: UserPage.js:285 ~ handleToggler ~ willDelete', willDelete);
-      const result = await doTogglerCall(id);
-      console.log('🤩 ~ file: UserPage.js:288 ~ handleToggler ~ result', result);
-      fetchUser();
-      if (result?.success) {
+      if (willDelete) {
+        console.log('🤩 ~ file: UserPage.js:285 ~ handleToggler ~ willDelete', willDelete);
+        const result = await doTogglerCall(id);
+        console.log('🤩 ~ file: UserPage.js:288 ~ handleToggler ~ result', result);
         fetchUser();
+        if (result?.success) {
+          fetchUser();
+        }
       } else {
         swal('Something Went Wrong Please try after some time', {
           icon: 'error',

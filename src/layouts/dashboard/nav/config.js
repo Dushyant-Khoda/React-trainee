@@ -17,11 +17,11 @@ const navConfig = [
     path: '/dashboard/blog',
     icon: icon('simple-icons:blogger'),
   },
-  {
-    title: 'pages',
-    path: '/dashboard/pages',
-    icon: icon('ooui:special-pages-ltr'),
-  },
+  // {
+  //   title: 'pages',
+  //   path: '/dashboard/pages',
+  //   icon: icon('ooui:special-pages-ltr'),
+  // },
   {
     title: 'ebook',
     path: '/dashboard/ebook',

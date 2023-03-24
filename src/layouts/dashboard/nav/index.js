@@ -60,15 +60,19 @@ export default function Nav({ openNav, onCloseNav }) {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            margin: '20px',
           }}
         >
-          {/* <img
-            src={Logo}
+          <img
+            src={
+              'https://res.cloudinary.com/dcoovlsvd/image/upload/v1679636742/React-trainee/oie_9vIqHtlPumz4_g3xscc.png'
+            }
             alt="key-cms"
             style={{
-              maxWidth: '130px',
+              maxWidth: '200px',
+              transform: 'scale(1.2)',
             }}
-          /> */}
+          />
         </div>
       </Box>
 
