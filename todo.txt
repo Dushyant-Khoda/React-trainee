@@ -1,0 +1,110 @@
+All API Endpoint
+
+* Authentication
+
+[ + ]Login = auth/login
+
+[ . ] Forgot Password = auth/forgotPassword
+
+[ . ] Logout = auth/logout
+
+[ . ] Reset Password = auth/resetPassword/:token
+
+* User
+
+[ + ]List User = /user/users?limit=5&page=1
+
+[ + ]Add User = auth/register
+
+[ + ]Get Profile = user/me
+
+[ - ] Read user By Id = user/:id
+
+[ . ] Edit Profile = user/:id
+
+{Integrate Drawer For This}
+
+[ . ] Edit Password = auth/changePassword
+
+{Integrate Modal For This}
+
+[ . ] Remove User  = user/active/:id
+{Sweet Alert For this}
+
+[ . ] Delete User = user/:id
+{Sweet Alert For this}
+
+[ . ] Upload User Image = user/profile
+
+
+
+
+
+* Categories
+
+[ . ] Add Category = /category
+
+{Integrate Normal Modal For This}
+
+[ . ] List Category = /category
+
+[ . ] Get Category = /category/:id
+{Integrate Normal Card For This}
+
+[ . ] Edit Category = /category/:id
+{Integrate Normal Modal For This}
+
+[ . ] Remove Category = /category/:id
+{Sweet Alert For this}
+
+[ . ] Delete Category = /category/:id
+{Sweet Alert For this}
+
+* Sub Categories
+
+
+[ . ] Add Sub Category = /category/subcategory
+{Integrate Normal Modal For This}
+
+[ . ] List Sub Category = /category/subcategory
+
+[ . ] Get Sub Category By Id = /category/subcategory/:id
+
+[ . ] Get Sub Category By Category = 
+
+[ . ] Edit Sub Category = category/subcategory/:id
+
+[ . ] Remove Sub Category = category/subcategory/:id {Patch}
+
+[ . ] Delete Sub Category = category/subcategory/:id {Delete}
+
+
+
+* Blog 
+
+[ . ] Add Blog = /blog?cat_id=:id
+
+[ . ] List Blog = /blog?limit=2
+
+[ . ] Get Blog By Id= blog/639aa672fb57a6d9a614049c 
+
+[ . ] Get Blog By User Id = blog/user/6396fd325e51b473bf35845a
+
+[ . ] Edit Blog = blog/639aa649ae43816182b26e16
+
+[ . ] Remove Blog = blog/639aa649ae43816182b26e16
+
+[ . ] Delete Blog = blog/639aa649ae43816182b26e16
+
+* Pages
+
+[ . ] Get Page Content By Page = 
+
+[ . ]Edit Page Content = 
+
+* Activity
+
+[ . ] Get All Activity =
+
+[ . ] Get Activity By user Id = 
+
