@@ -324,7 +324,7 @@ export default function CategoriesPage() {
   return (
     <>
       <Helmet>
-        <title> Categories | Key CMS Accounting </title>
+        <title> Categories | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

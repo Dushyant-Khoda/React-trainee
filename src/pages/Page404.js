@@ -22,7 +22,7 @@ export default function Page404() {
   return (
     <>
       <Helmet>
-        <title> 404 Page Not Found | Key CMS Accounting </title>
+        <title> 404 Page Not Found | React Trainee </title>
       </Helmet>
 
       <Container>

@@ -118,7 +118,7 @@ export default function BpartnerContact() {
   return (
     <>
       <Helmet>
-        <title> Become Our Partner User List | Key CMS Accounting </title>
+        <title> Become Our Partner User List | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

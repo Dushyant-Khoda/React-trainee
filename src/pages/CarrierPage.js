@@ -231,7 +231,7 @@ export default function CarrierPage() {
   return (
     <>
       <Helmet>
-        <title> Careers User List | Key CMS Accounting </title>
+        <title> Careers User List | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

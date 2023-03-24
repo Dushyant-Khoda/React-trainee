@@ -391,7 +391,7 @@ export default function SubCategoriesPage() {
   return (
     <>
       <Helmet>
-        <title> Subcategories | Key CMS Accounting </title>
+        <title> Subcategories | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

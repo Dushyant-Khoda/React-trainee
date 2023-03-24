@@ -413,7 +413,7 @@ export default function CategoriesPage() {
   return (
     <>
       <Helmet>
-        <title> infographics | Key CMS Accounting </title>
+        <title> infographics | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

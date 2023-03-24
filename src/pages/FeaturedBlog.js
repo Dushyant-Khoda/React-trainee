@@ -288,7 +288,7 @@ export default function FeaturedBlog() {
   return (
     <>
       <Helmet>
-        <title> Featured Blog | Key CMS Accounting </title>
+        <title> Featured Blog | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

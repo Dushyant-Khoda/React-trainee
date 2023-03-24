@@ -81,7 +81,7 @@ export default function ActivityPage() {
   return (
     <>
       <Helmet>
-        <title> Pages | Key CMS Accounting </title>
+        <title> Pages | React Trainee </title>
       </Helmet>
 
       <Container>

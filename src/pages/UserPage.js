@@ -335,7 +335,7 @@ export default function UserPage() {
   return (
     <>
       <Helmet>
-        <title> User | Key CMS Accounting </title>
+        <title> User | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

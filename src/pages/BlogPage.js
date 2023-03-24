@@ -154,7 +154,7 @@ export default function BlogPage() {
   return (
     <>
       <Helmet>
-        <title> Blog | Key CMS Accounting </title>
+        <title> Blog | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <div>

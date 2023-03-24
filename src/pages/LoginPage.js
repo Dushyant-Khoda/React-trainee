@@ -56,7 +56,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Login | Key CMS Accounting </title>
+        <title> Login | React Trainee </title>
       </Helmet>
 
       <StyledRoot>

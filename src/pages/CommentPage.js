@@ -306,7 +306,7 @@ export default function CommentPage() {
   return (
     <>
       <Helmet>
-        <title> Comments | Key CMS Accounting </title>
+        <title> Comments | React Trainee </title>
       </Helmet>
       {isLoading ? (
         <LoadingAnimation />

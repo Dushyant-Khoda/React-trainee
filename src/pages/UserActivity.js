@@ -83,7 +83,7 @@ export default function UserActivity() {
   return (
     <>
       <Helmet>
-        <title> Activity | Key CMS Accounting </title>
+        <title> Activity | React Trainee </title>
       </Helmet>
 
       {isLoading ? (
